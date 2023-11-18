@@ -26,3 +26,4 @@ function printLocation(location: LocationState) {
 };
 
 printLocation({ state: "Success", coords: { lat: 0.122, lon: 0.36 } });
+printLocation({ state: "Error", error: { message: "Something went wrong" } });
