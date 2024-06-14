@@ -1,10 +1,10 @@
 type fruitMap = {
-  [key: string]: string;
+  [key: string]: string | number;
 };
 
 const fruitObj: fruitMap = {
-  'apple': 'apple',
-  'mango': 'mango'
+  apple: 1,
+  mango: 2
 };
 
-console.log(fruitObj['apple']);
+console.log(fruitObj.apple);
